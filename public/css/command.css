@@ -58,7 +58,7 @@ p {
   align-items: center;
 }
 
-.navbar_frame.navbar_top .search_box {
+.navbar_frame .navbar_top .search_box {
   width: auto;
   height: auto;
   padding: 10px 17px;
@@ -80,7 +80,7 @@ p {
   border-right: 1px solid #d6d6d6;
 }
 
-.navbar_frame.category_list select {
+.navbar_frame .category_list select {
   width: 140px;
   height: 30px;
 
