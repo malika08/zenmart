@@ -49,7 +49,6 @@
 .container .category_top a:hover {
   border-bottom: 2px solid #041e42;
 }
-
 /* PAGIONATION*/
 .container .pagionation_box {
   margin-top: 30px;
@@ -99,6 +98,7 @@
   background: #112137;
   border-radius: 50%;
 }
+
 
 .container .next_prev_box {
   width: 25px;
