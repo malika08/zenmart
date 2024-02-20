@@ -1,0 +1,253 @@
+.checkout_page {
+  margin-bottom: 60px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkout_page .title_div {
+  margin-top: 60px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_page .title_div span {
+  text-transform: capitalize;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #041e42;
+}
+
+.checkout_page .checkout_frame {
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.checkout_page .checkout_frame .container {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.checkout_page .checkout_frame .container .checkout_main {
+  width: 858px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_page .checkout_main .main_title {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: capitalize;
+
+  color: #041e42;
+}
+.checkout_page .checkout_main .double_input_box {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.checkout_page .checkout_main .double_input_box .double_input {
+  width: 413px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_page .double_input label,
+.checkout_main .input_box label {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #041e42;
+}
+.checkout_page .double_input input,
+.checkout_main .input_box input,
+.checkout_main .input_box select {
+  margin-top: 5px;
+  padding: 0px 15px;
+  width: 100%;
+  height: 55px;
+
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+
+  color: #626974;
+}
+
+.checkout_page .checkout_main .input_box {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_page .input_box textarea {
+  padding: 20px;
+  margin-top: 5px;
+  width: 100%;
+  height: 257px;
+
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+
+  color: #041e42;
+}
+
+.checkout_page .checkout_frame .container .checkout_order_main {
+  width: 422px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_page .checkout_order_main .my_order_box {
+  padding: 30px 25px;
+  width: 100%;
+  height: 376px;
+
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+}
+
+.checkout_page .my_order_box .my_order_title {
+  margin-bottom: 20px;
+  display: flex;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+
+  color: #041e42;
+}
+
+.checkout_page .my_order_box .order_product_info {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.checkout_page .order_product_info span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 35px;
+
+  color: #041e42;
+}
+
+.checkout_page .my_order_box .spec_info_box {
+  width: 100%;
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eaeaea;
+}
+
+.checkout_page .my_order_box .spec_info_box span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #041e42;
+}
+.checkout_page .check_box {
+  margin: 30px 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.checkout_page .check_box input {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.checkout_page .check_box span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+
+  color: #041e42;
+}
+
+.checkout_page .checkout_order_main button {
+  width: 100%;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+  background: #f5c34b;
+  border: 1px solid #f5c34b;
+
+  box-shadow: 0px 5px 20px rgba(245, 195, 75, 0.15);
+  border-radius: 6px;
+  cursor: pointer;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+
+  color: #041e42;
+}
